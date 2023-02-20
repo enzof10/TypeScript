@@ -32,7 +32,8 @@ interface Animal {
 
 class Zoo implements Animal {
     name = "Muhh";
-    getDogs (): void{
+    getDogs (): string{
         // logica aca
+        return "algo"
     };
 }
